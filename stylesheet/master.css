@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+@layer components {
+
+}
+
+@layer base{
+     
+    .row{
+        @apply 
+            flex flex-wrap w-full
+        
+    }
+}
+
+@layer utilities{
+    .bgTest{
+        @apply bg-amber-800
+    }
+}
+
+@keyframes anime{
+   0%{background-color:transparent}
+   40%{background-color: red;}
+   60%{background-color: rgb(221, 46, 46);}
+   80%{background-color: rgb(175, 101, 101);}
+   100%{background-color: transparent;}
+}
